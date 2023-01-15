@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador do Painel</title>
+    <link rel="stylesheet" href="../../Estilos/globalStyle.css">
+    <link rel="stylesheet" href="../../Estilos/texts.css">
+    <link rel="stylesheet" href="../../Estilos/colorTexts.css">
+    <link rel="stylesheet" href="../../Estilos/buttons.css">
+    <link rel="stylesheet" href="../../Estilos/inputs.css">
+    <link rel="stylesheet" href="../../Estilos/cards.css">
+    <link rel="stylesheet" href="../../Estilos/modal.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="cabecalhoContainer">
+        <div class="container cabecalhoConteudo-container ">
+            <h1 class="font-2-bold roxoAzul-2">Kenzie Empresas</h1>
+            <button class="button-menu-icon" id="show"><img src="../../assets/img/Vector.png" alt=""></button>
+            <nav class="nav-header">
+                <button class="button-base button-roxoAzul-2 button-base-2" id="btn-logout">Logout</button>
+ 
+            </nav>
+        </div>
+    </header>
+    <main class="container container-main">
+        <section class="container-list-department">
+            <h1 class="font-3-semibold roxoAzul-2">Departamentos</h1>
+            <select name="select-company" id="select-company" class="font-5-regular">
+                <option value="0">Selecionar Empresa</option>
+            </select>
+            <button class="button-base button-roxoAzul-1" id="button-create" data-modal-control="create">+ Criar</button>
+            <ul class="list-department">
+                
+            </ul>
+        </section>
+        <section class="container-user-registered">
+            <h1 class="font-3-semibold roxoAzul-2">Usuários cadastrados</h1>
+            <ul class="list-user-registered" id="list-user-registered">
+                
+            </ul>
+        </section>
+    </main>
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>

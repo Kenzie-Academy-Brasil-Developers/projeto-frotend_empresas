@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    color: var(--color-cinza-000);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+:root {
+
+    --font-size-1: 32px;
+    --font-size-2: 28px;
+    --font-size-3: 20px;
+    --font-size-4: 16px;
+    --font-size-5: 14px;
+
+    --radius-1: 12px;
+    --radius-2: 8px;
+    --radius-3: 4px;
+    --radius-50: 50%;
+
+    --gap-1: 28px;
+    --gap-2: 24px;
+    --gap-3: 20px;
+    --gap-4: 16px;
+    --gap-5: 14px;
+    --gap-6: 12px;
+
+
+    --color-roxoAzul-100: #4200FF;
+    --color-roxoAzul-200: #4200FF;
+    --color-cinza-000: #15171a;
+    --color-cinza-100: #212529;
+    --color-cinza-200: #2b2f33;
+    --color-cinza-300: #868e96;
+    --color-cinza-400: #adb5bd;
+    --color-cinza-500: #ced4da;
+    --color-cinza-600: #dee2e6;
+    --color-cinza-700: #f1f3f5;
+    --color-cinza-800: #f8f9fa;
+    --color-cinza-900: #fdfeff;
+    --opacity: #1f1f1f80;
+    --color-feedback-alert: #c92a2a;
+    --color-feedback-sucess: #087f5b;
+    --color-feedback-warning: #f08c00;
+    --color-feedback-disable: #c6c7cd;
+
+  
+}
+

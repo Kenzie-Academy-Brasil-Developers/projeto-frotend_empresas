@@ -1,0 +1,55 @@
+.roxoAzul-1 {
+    color: var(--color-roxoAzul-100);    
+}
+
+.roxoAzul-2 {
+    color: var(--color-roxoAzul-200);
+}
+
+.alert {
+    color: var(--color-feedback-alert);
+}
+
+.sucess {
+    color: var(--color-feedback-sucess)
+}
+
+.cinza-0 {
+    color: var(--color-cinza-000); 
+}
+
+.cinza-1 {
+    color: var(--color-cinza-100); 
+}
+
+.cinza-2 {
+    color: var(--color-cinza-200); 
+}
+
+.cinza-3 {
+    color: var(--color-cinza-300); 
+}
+
+.cinza-4 {
+    color: var(--color-cinza-400); 
+}
+
+.cinza-5 {
+    color: var(--color-cinza-500); 
+}
+
+.cinza-6 {
+    color: var(--color-cinza-600); 
+}
+
+.cinza-7 {
+    color: var(--color-cinza-700); 
+}
+
+.cinza-8 {
+    color: var(--color-cinza-800); 
+}
+
+.cinza-9 {
+    color: var(--color-cinza-900); 
+}
